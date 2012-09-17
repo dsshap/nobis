@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
 
 @interface cameraFirstViewController : UIViewController <UINavigationControllerDelegate> {
-    
+    ADBannerView *adView;
+    BOOL bannerIsVisible;
     UIButton *button;
     
 }
 
-
+@property (nonatomic,assign) BOOL bannerIsVisible;
 
 @end

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface cameraAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

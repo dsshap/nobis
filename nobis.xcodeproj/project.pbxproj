@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB00AEA9153A03120013D7FE /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = CB00AEA8153A03110013D7FE /* Camera.png */; };
 		CB00AEAD153A0AF80013D7FE /* CameraCustOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB00AEAC153A0AF80013D7FE /* CameraCustOverlayView.m */; };
 		CB00AEB3153A21700013D7FE /* mustacheFront.png in Resources */ = {isa = PBXBuildFile; fileRef = CB00AEB2153A21700013D7FE /* mustacheFront.png */; };
 		CB1EB840154358F500D9133F /* mustache.png in Resources */ = {isa = PBXBuildFile; fileRef = CB1EB83F154358F500D9133F /* mustache.png */; };
 		CB1EB8521543673100D9133F /* photosLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1EB8511543673100D9133F /* photosLibraryViewController.m */; };
+		CB4968CE160780A70075E856 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4968CD160780A70075E856 /* Icon@2x.png */; };
 		CB8463401539D99D008E44C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB84633F1539D99D008E44C0 /* UIKit.framework */; };
 		CB8463421539D99D008E44C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8463411539D99D008E44C0 /* Foundation.framework */; };
 		CB8463441539D99D008E44C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8463431539D99D008E44C0 /* CoreGraphics.framework */; };
@@ -30,6 +30,14 @@
 		CB8463761539D99D008E44C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB8463741539D99D008E44C0 /* InfoPlist.strings */; };
 		CB8463791539D99D008E44C0 /* cameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8463781539D99D008E44C0 /* cameraTests.m */; };
 		CB84638B1539E19C008E44C0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB84638A1539E19B008E44C0 /* MobileCoreServices.framework */; };
+		CB91FF3F16065F5900A9F4FA /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB91FF3E16065F5900A9F4FA /* iAd.framework */; };
+		CB91FF421606A49300A9F4FA /* take_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB91FF411606A49300A9F4FA /* take_photo.png */; };
+		CB91FF441606D8B300A9F4FA /* camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB91FF431606D8B300A9F4FA /* camera-icon.png */; };
+		CB91FF461606DC1E00A9F4FA /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = CB91FF451606DC1E00A9F4FA /* star.png */; };
+		CB91FF481606EE8300A9F4FA /* compilation-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB91FF471606EE8300A9F4FA /* compilation-background.jpg */; };
+		CB91FF551607116300A9F4FA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CB91FF511607116300A9F4FA /* Icon.png */; };
+		CB91FF571607116300A9F4FA /* launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB91FF531607116300A9F4FA /* launch.jpg */; };
+		CB91FF581607116300A9F4FA /* launch@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB91FF541607116300A9F4FA /* launch@2x.jpg */; };
 		CBA2427A153B50FA00E428CA /* mustacheRear.png in Resources */ = {isa = PBXBuildFile; fileRef = CBA24279153B50FA00E428CA /* mustacheRear.png */; };
 		CBA2427D153B51E000E428CA /* cameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA2427C153B51E000E428CA /* cameraViewController.m */; };
 /* End PBXBuildFile section */
@@ -45,21 +53,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CB00AEA8153A03110013D7FE /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera.png; sourceTree = "<group>"; };
 		CB00AEAB153A0AF80013D7FE /* CameraCustOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraCustOverlayView.h; sourceTree = "<group>"; };
 		CB00AEAC153A0AF80013D7FE /* CameraCustOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraCustOverlayView.m; sourceTree = "<group>"; };
 		CB00AEB2153A21700013D7FE /* mustacheFront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mustacheFront.png; path = camera/mustacheFront.png; sourceTree = "<group>"; };
 		CB1EB83F154358F500D9133F /* mustache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mustache.png; path = camera/mustache.png; sourceTree = "<group>"; };
 		CB1EB8501543673100D9133F /* photosLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = photosLibraryViewController.h; sourceTree = "<group>"; };
 		CB1EB8511543673100D9133F /* photosLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = photosLibraryViewController.m; sourceTree = "<group>"; };
-		CB84633B1539D99D008E44C0 /* camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4968CD160780A70075E856 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "camera/Icon@2x.png"; sourceTree = "<group>"; };
+		CB84633B1539D99D008E44C0 /* nobis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nobis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB84633F1539D99D008E44C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB8463411539D99D008E44C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CB8463431539D99D008E44C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CB8463471539D99D008E44C0 /* camera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "camera-Info.plist"; sourceTree = "<group>"; };
+		CB8463471539D99D008E44C0 /* nobis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nobis-Info.plist"; sourceTree = "<group>"; };
 		CB8463491539D99D008E44C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB84634B1539D99D008E44C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CB84634D1539D99D008E44C0 /* camera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "camera-Prefix.pch"; sourceTree = "<group>"; };
+		CB84634D1539D99D008E44C0 /* nobis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nobis-Prefix.pch"; sourceTree = "<group>"; };
 		CB84634E1539D99D008E44C0 /* cameraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cameraAppDelegate.h; sourceTree = "<group>"; };
 		CB84634F1539D99D008E44C0 /* cameraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cameraAppDelegate.m; sourceTree = "<group>"; };
 		CB8463511539D99D008E44C0 /* cameraFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cameraFirstViewController.h; sourceTree = "<group>"; };
@@ -70,13 +78,21 @@
 		CB8463591539D99D008E44C0 /* cameraSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cameraSecondViewController.m; sourceTree = "<group>"; };
 		CB84635B1539D99D008E44C0 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = camera/second.png; sourceTree = "<group>"; };
 		CB84635D1539D99D008E44C0 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "camera/second@2x.png"; sourceTree = "<group>"; };
-		CB84636A1539D99D008E44C0 /* cameraTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cameraTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB84636A1539D99D008E44C0 /* nobisTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nobisTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB84636B1539D99D008E44C0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CB8463731539D99D008E44C0 /* cameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cameraTests-Info.plist"; sourceTree = "<group>"; };
+		CB8463731539D99D008E44C0 /* nobisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nobisTests-Info.plist"; sourceTree = "<group>"; };
 		CB8463751539D99D008E44C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB8463771539D99D008E44C0 /* cameraTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cameraTests.h; sourceTree = "<group>"; };
 		CB8463781539D99D008E44C0 /* cameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cameraTests.m; sourceTree = "<group>"; };
 		CB84638A1539E19B008E44C0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CB91FF3E16065F5900A9F4FA /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		CB91FF411606A49300A9F4FA /* take_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = take_photo.png; sourceTree = "<group>"; };
+		CB91FF431606D8B300A9F4FA /* camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-icon.png"; path = "camera/camera-icon.png"; sourceTree = "<group>"; };
+		CB91FF451606DC1E00A9F4FA /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = camera/star.png; sourceTree = "<group>"; };
+		CB91FF471606EE8300A9F4FA /* compilation-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "compilation-background.jpg"; path = "camera/compilation-background.jpg"; sourceTree = "<group>"; };
+		CB91FF511607116300A9F4FA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = camera/Icon.png; sourceTree = "<group>"; };
+		CB91FF531607116300A9F4FA /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = launch.jpg; path = camera/launch.jpg; sourceTree = "<group>"; };
+		CB91FF541607116300A9F4FA /* launch@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "launch@2x.jpg"; path = "camera/launch@2x.jpg"; sourceTree = "<group>"; };
 		CBA24279153B50FA00E428CA /* mustacheRear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mustacheRear.png; path = camera/mustacheRear.png; sourceTree = "<group>"; };
 		CBA2427B153B51E000E428CA /* cameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cameraViewController.h; sourceTree = "<group>"; };
 		CBA2427C153B51E000E428CA /* cameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cameraViewController.m; sourceTree = "<group>"; };
@@ -87,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB91FF3F16065F5900A9F4FA /* iAd.framework in Frameworks */,
 				CB84638B1539E19C008E44C0 /* MobileCoreServices.framework in Frameworks */,
 				CB8463401539D99D008E44C0 /* UIKit.framework in Frameworks */,
 				CB8463421539D99D008E44C0 /* Foundation.framework in Frameworks */,
@@ -110,6 +127,7 @@
 		CB00AEBA153B4BD90013D7FE /* images */ = {
 			isa = PBXGroup;
 			children = (
+				CB91FF471606EE8300A9F4FA /* compilation-background.jpg */,
 				CB00AEBD153B4BF20013D7FE /* tabbar */,
 				CB00AEBC153B4BE60013D7FE /* overlays */,
 			);
@@ -129,6 +147,8 @@
 		CB00AEBD153B4BF20013D7FE /* tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				CB91FF451606DC1E00A9F4FA /* star.png */,
+				CB91FF431606D8B300A9F4FA /* camera-icon.png */,
 				CB84635B1539D99D008E44C0 /* second.png */,
 				CB84635D1539D99D008E44C0 /* second@2x.png */,
 				CB8463541539D99D008E44C0 /* first.png */,
@@ -165,6 +185,11 @@
 		CB8463301539D99D008E44C0 = {
 			isa = PBXGroup;
 			children = (
+				CB4968CD160780A70075E856 /* Icon@2x.png */,
+				CB91FF511607116300A9F4FA /* Icon.png */,
+				CB91FF531607116300A9F4FA /* launch.jpg */,
+				CB91FF541607116300A9F4FA /* launch@2x.jpg */,
+				CB91FF3E16065F5900A9F4FA /* iAd.framework */,
 				CB00AEBA153B4BD90013D7FE /* images */,
 				CB8463451539D99D008E44C0 /* camera */,
 				CB8463711539D99D008E44C0 /* cameraTests */,
@@ -177,8 +202,8 @@
 		CB84633C1539D99D008E44C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB84633B1539D99D008E44C0 /* camera.app */,
-				CB84636A1539D99D008E44C0 /* cameraTests.octest */,
+				CB84633B1539D99D008E44C0 /* nobis.app */,
+				CB84636A1539D99D008E44C0 /* nobisTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,11 +222,11 @@
 		CB8463451539D99D008E44C0 /* camera */ = {
 			isa = PBXGroup;
 			children = (
+				CB91FF411606A49300A9F4FA /* take_photo.png */,
 				CB84634E1539D99D008E44C0 /* cameraAppDelegate.h */,
 				CB84634F1539D99D008E44C0 /* cameraAppDelegate.m */,
 				CB8463511539D99D008E44C0 /* cameraFirstViewController.h */,
 				CB8463521539D99D008E44C0 /* cameraFirstViewController.m */,
-				CB00AEA8153A03110013D7FE /* Camera.png */,
 				CB8463581539D99D008E44C0 /* cameraSecondViewController.h */,
 				CB8463591539D99D008E44C0 /* cameraSecondViewController.m */,
 				CB1EB84F1543670400D9133F /* photos */,
@@ -214,10 +239,10 @@
 		CB8463461539D99D008E44C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB8463471539D99D008E44C0 /* camera-Info.plist */,
+				CB8463471539D99D008E44C0 /* nobis-Info.plist */,
 				CB8463481539D99D008E44C0 /* InfoPlist.strings */,
 				CB84634B1539D99D008E44C0 /* main.m */,
-				CB84634D1539D99D008E44C0 /* camera-Prefix.pch */,
+				CB84634D1539D99D008E44C0 /* nobis-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -235,7 +260,7 @@
 		CB8463721539D99D008E44C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB8463731539D99D008E44C0 /* cameraTests-Info.plist */,
+				CB8463731539D99D008E44C0 /* nobisTests-Info.plist */,
 				CB8463741539D99D008E44C0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -255,9 +280,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB84633A1539D99D008E44C0 /* camera */ = {
+		CB84633A1539D99D008E44C0 /* nobis */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB84637C1539D99D008E44C0 /* Build configuration list for PBXNativeTarget "camera" */;
+			buildConfigurationList = CB84637C1539D99D008E44C0 /* Build configuration list for PBXNativeTarget "nobis" */;
 			buildPhases = (
 				CB8463371539D99D008E44C0 /* Sources */,
 				CB8463381539D99D008E44C0 /* Frameworks */,
@@ -267,14 +292,14 @@
 			);
 			dependencies = (
 			);
-			name = camera;
+			name = nobis;
 			productName = camera;
-			productReference = CB84633B1539D99D008E44C0 /* camera.app */;
+			productReference = CB84633B1539D99D008E44C0 /* nobis.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CB8463691539D99D008E44C0 /* cameraTests */ = {
+		CB8463691539D99D008E44C0 /* nobisTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB84637F1539D99D008E44C0 /* Build configuration list for PBXNativeTarget "cameraTests" */;
+			buildConfigurationList = CB84637F1539D99D008E44C0 /* Build configuration list for PBXNativeTarget "nobisTests" */;
 			buildPhases = (
 				CB8463651539D99D008E44C0 /* Sources */,
 				CB8463661539D99D008E44C0 /* Frameworks */,
@@ -286,9 +311,9 @@
 			dependencies = (
 				CB8463701539D99D008E44C0 /* PBXTargetDependency */,
 			);
-			name = cameraTests;
+			name = nobisTests;
 			productName = cameraTests;
-			productReference = CB84636A1539D99D008E44C0 /* cameraTests.octest */;
+			productReference = CB84636A1539D99D008E44C0 /* nobisTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -301,7 +326,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = JPMC;
 			};
-			buildConfigurationList = CB8463351539D99D008E44C0 /* Build configuration list for PBXProject "camera" */;
+			buildConfigurationList = CB8463351539D99D008E44C0 /* Build configuration list for PBXProject "nobis" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -313,8 +338,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB84633A1539D99D008E44C0 /* camera */,
-				CB8463691539D99D008E44C0 /* cameraTests */,
+				CB84633A1539D99D008E44C0 /* nobis */,
+				CB8463691539D99D008E44C0 /* nobisTests */,
 			);
 		};
 /* End PBXProject section */
@@ -329,10 +354,17 @@
 				CB8463571539D99D008E44C0 /* first@2x.png in Resources */,
 				CB84635C1539D99D008E44C0 /* second.png in Resources */,
 				CB84635E1539D99D008E44C0 /* second@2x.png in Resources */,
-				CB00AEA9153A03120013D7FE /* Camera.png in Resources */,
 				CB00AEB3153A21700013D7FE /* mustacheFront.png in Resources */,
 				CBA2427A153B50FA00E428CA /* mustacheRear.png in Resources */,
 				CB1EB840154358F500D9133F /* mustache.png in Resources */,
+				CB91FF421606A49300A9F4FA /* take_photo.png in Resources */,
+				CB91FF441606D8B300A9F4FA /* camera-icon.png in Resources */,
+				CB91FF461606DC1E00A9F4FA /* star.png in Resources */,
+				CB91FF481606EE8300A9F4FA /* compilation-background.jpg in Resources */,
+				CB91FF551607116300A9F4FA /* Icon.png in Resources */,
+				CB91FF571607116300A9F4FA /* launch.jpg in Resources */,
+				CB91FF581607116300A9F4FA /* launch@2x.jpg in Resources */,
+				CB4968CE160780A70075E856 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +422,7 @@
 /* Begin PBXTargetDependency section */
 		CB8463701539D99D008E44C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CB84633A1539D99D008E44C0 /* camera */;
+			target = CB84633A1539D99D008E44C0 /* nobis */;
 			targetProxy = CB84636F1539D99D008E44C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -463,10 +495,14 @@
 		CB84637D1539D99D008E44C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Shapiro (KF98J4K647)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "camera/camera-Prefix.pch";
-				INFOPLIST_FILE = "camera/camera-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "camera/nobis-Prefix.pch";
+				INFOPLIST_FILE = "camera/nobis-Info.plist";
+				PRODUCT_NAME = nobis;
+				PROVISIONING_PROFILE = "E8416237-7EBA-47A7-876E-7C436203D0DC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -474,10 +510,14 @@
 		CB84637E1539D99D008E44C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Shapiro (KF98J4K647)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: David Shapiro";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "camera/camera-Prefix.pch";
-				INFOPLIST_FILE = "camera/camera-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "camera/nobis-Prefix.pch";
+				INFOPLIST_FILE = "camera/nobis-Info.plist";
+				PRODUCT_NAME = nobis;
+				PROVISIONING_PROFILE = "E8416237-7EBA-47A7-876E-7C436203D0DC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F5273FED-BEEB-4774-996C-66311F204EE4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -492,8 +532,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "camera/camera-Prefix.pch";
-				INFOPLIST_FILE = "cameraTests/cameraTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "cameraTests/nobisTests-Info.plist";
+				PRODUCT_NAME = nobisTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -509,8 +549,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "camera/camera-Prefix.pch";
-				INFOPLIST_FILE = "cameraTests/cameraTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "cameraTests/nobisTests-Info.plist";
+				PRODUCT_NAME = nobisTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -519,7 +559,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB8463351539D99D008E44C0 /* Build configuration list for PBXProject "camera" */ = {
+		CB8463351539D99D008E44C0 /* Build configuration list for PBXProject "nobis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB84637A1539D99D008E44C0 /* Debug */,
@@ -528,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB84637C1539D99D008E44C0 /* Build configuration list for PBXNativeTarget "camera" */ = {
+		CB84637C1539D99D008E44C0 /* Build configuration list for PBXNativeTarget "nobis" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB84637D1539D99D008E44C0 /* Debug */,
@@ -537,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB84637F1539D99D008E44C0 /* Build configuration list for PBXNativeTarget "cameraTests" */ = {
+		CB84637F1539D99D008E44C0 /* Build configuration list for PBXNativeTarget "nobisTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB8463801539D99D008E44C0 /* Debug */,

@@ -14,9 +14,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CB84633A1539D99D008E44C0"
-               BuildableName = "camera.app"
-               BlueprintName = "camera"
-               ReferencedContainer = "container:camera.xcodeproj">
+               BuildableName = "nobis.app"
+               BlueprintName = "nobis"
+               ReferencedContainer = "container:nobis.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,9 +32,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CB8463691539D99D008E44C0"
-               BuildableName = "cameraTests.octest"
-               BlueprintName = "cameraTests"
-               ReferencedContainer = "container:camera.xcodeproj">
+               BuildableName = "nobisTests.octest"
+               BlueprintName = "nobisTests"
+               ReferencedContainer = "container:nobis.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -42,9 +42,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CB84633A1539D99D008E44C0"
-            BuildableName = "camera.app"
-            BlueprintName = "camera"
-            ReferencedContainer = "container:camera.xcodeproj">
+            BuildableName = "nobis.app"
+            BlueprintName = "nobis"
+            ReferencedContainer = "container:nobis.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -56,14 +56,15 @@
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      enableOpenGLFrameCaptureMode = "0"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CB84633A1539D99D008E44C0"
-            BuildableName = "camera.app"
-            BlueprintName = "camera"
-            ReferencedContainer = "container:camera.xcodeproj">
+            BuildableName = "nobis.app"
+            BlueprintName = "nobis"
+            ReferencedContainer = "container:nobis.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CB84633A1539D99D008E44C0"
-            BuildableName = "camera.app"
-            BlueprintName = "camera"
-            ReferencedContainer = "container:camera.xcodeproj">
+            BuildableName = "nobis.app"
+            BlueprintName = "nobis"
+            ReferencedContainer = "container:nobis.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

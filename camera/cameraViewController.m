@@ -21,7 +21,7 @@
 
 #define CAMERA_TRANSFORM_X 1
 //#define CAMERA_TRANSFORM_Y 1.12412 //use this is for iOS 3.x
-#define CAMERA_TRANSFORM_Y 1.24299 // use this is for iOS 4.x
+#define CAMERA_TRANSFORM_Y 1 // 1.24299 // use this is for iOS 4.x
 
 - (id)init{
     
@@ -80,7 +80,7 @@
                                           delegate:self cancelButtonTitle:@"Ok" 
                                  otherButtonTitles:nil];
     }else{ // All is well
-        alert = [[UIAlertView alloc] initWithTitle:@"Success" 
+        alert = [[UIAlertView alloc] initWithTitle:@"Congrats!" 
                                            message:@"Image saved to Photo Album." 
                                           delegate:self cancelButtonTitle:@"Ok" 
                                  otherButtonTitles:nil];
@@ -92,6 +92,7 @@
 
 - (void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
+    
     NSLog(@"which camera %u", picker.cameraDevice);
 	// Access the uncropped image from info dictionary
 	UIImage *image = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
@@ -104,7 +105,6 @@
         newimage = [self mergeImage:image withImage:[UIImage imageNamed:@"mustacheFront.png"] offset:30]; 
     }
 
-    
 	// Save image
     UIImageWriteToSavedPhotosAlbum(newimage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
     
